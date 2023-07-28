@@ -12,28 +12,561 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate....</p>
+  <section class="group hero">
+    <div class="wrapper hero-wrapper">
+
+      <a href="index.html" class="site-logo">
+        <img
+          src="https://github.com/saragismondi/html5-boilerplate/assets/82971303/c195350d-f730-4ae6-a234-45281093f6d7"
+          alt="A better weigh, Inc" />
+      </a>
+
+      <ul class="nav">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Book Online</a></li>
+        <li><a href="#">Weight Loss Programs</a></li>
+        <li><a href="#">Real Patient Stories</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Subscription</a></li>
+      </ul>
+
+      <button class="menu-toggle">
+        <img
+          src="https://github.com/saragismondi/html5-boilerplate/assets/82971303/63be88a2-ba26-4aa6-9b8a-85413fc36bef"
+          alt="menu" />
+      </button>
+
+      <h1 class="main-title">Chicago’s <em>Free</em> Medical Check-Up and Weight Loss Consultation</h1>
+      <p class="main-subtitle">Only <strong>11</strong> spots available!</p>
+
+      <div class="offer">
+        <p class="offer-title">Your offer ends in:</p>
+        <div class="offer-cowntdown" id="countdown">
+          <div>
+            <p class="cowntdown-title">DAYS</p>
+            <p class="cowntdown-digit" id="days">00</p>
+          </div>
+          <div>
+            <p class="cowntdown-title">HOURS</p>
+            <p class="cowntdown-digit" id="hours">00</p>
+          </div>
+          <div>
+            <p class="cowntdown-title">MINUTES</p>
+            <p class="cowntdown-digit" id="minutes">00</p>
+          </div>
+          <div>
+            <p class="cowntdown-title">SECONDS</p>
+            <p class="cowntdown-digit" id="seconds">00</p>
+          </div>
+        </div>
+      </div>
+      <p class="offer-description">There are limited spots due to the Physicians schedule and the high demand for
+        service. No credit card or insurance required.</p>
+      <button class="offer-button hero-offer-button">Book my appointment</button>
+
+    </div>
+
+    <div class="hero-svg">
+      <svg class="hero-svg-circle-1 mobile" width="162" height="222" viewBox="0 0 162 222" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle opacity=".15" cx="111" cy="111" r="97" stroke="#fff" stroke-width="28" />
+      </svg>
+      <svg class="hero-svg-circle-3" width="295" height="386" viewBox="0 0 295 386" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="102" cy="193" r="179" stroke="#fff" stroke-width="28"/></svg>
+
+      <svg  class="hero-svg-circle-4" width="168" height="273" viewBox="0 0 168 273" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="31.5" cy="136.5" r="126.5" stroke="#F9F9F9" stroke-width="20"/></svg>
+    </div>
+  </section>
+
+  <!-- ----- -->
+  <section class="group statistics">
+    <div class="wrapper">
+      <div class="statistics-wrapper">
+
+        <div class="stats-block">
+          <svg class="stats-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z" stroke="#73C3F4"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" stroke="#73C3F4" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p class="stats-value">10<span class="stats-plus">+</span>
+          </p>
+          <p class="stats-desc">years in business</p>
+        </div>
+
+        <div class="stats-block">
+          <svg class="stats-svg" width="24" height="25" viewBox="0 0 24 25" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22.5c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10Z" stroke="#FFCF54"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M8 14.5s1.5 2 4 2 4-2 4-2M9 9.5h.01M15 9.5h.01" stroke="#FFCF54" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p class="stats-value">2000<span class="stats-plus">+</span>
+          </p>
+          <p class="stats-desc">positive reviews</p>
+        </div>
+
+        <div class="stats-block">
+          <svg class="stats-svg" width="24" height="25" viewBox="0 0 24 25" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21 12a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.379 8.379 0 0 1-3.8-.9L3 21.5l1.9-5.7A8.38 8.38 0 0 1 4 12a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"
+              stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <p class="stats-value">15.000<span class="stats-plus">+</span>
+          </p>
+          <p class="stats-desc">satisfied clients</p>
+        </div>
+
+        <div class="stats-block">
+          <svg class="stats-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#55A201" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          <p class="stats-value">Many<span class="stats-plus">+</span>
+          </p>
+          <p class="stats-desc">nurses and physician assistants on staff</p>
+        </div>
+
+      </div>
+
+      <button class="offer-button secondary-offer-button">Book my appointment</button>
+
+    </div>
+
+    <div class="statistics-svg">
+      <svg class="statistics-svg-circle-1" width="78" height="209" viewBox="0 0 78 209" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle opacity=".15" cx="104.5" cy="104.5" r="90.5" stroke="#fff" stroke-width="28" />
+      </svg>
+
+
+      <svg class="statistics-svg-circle-2" width="54" height="125" viewBox="0 0 54 125" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle opacity=".15" cx="-8.5" cy="62.5" r="48.5" stroke="#fff" stroke-width="28" />
+      </svg>
+
+      <svg class="statistics-svg-circle-4" width="185" height="185" viewBox="0 0 185 185" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity=".15" cx="92.5" cy="92.5" r="78.5" stroke="#fff" stroke-width="28"/></svg>
+    </div>
+  </section>
+  <!-- ----- -->
+
+  <section class="group consultation">
+    <div class="wrapper wrapper-consultation">
+      <div class="sub-wrapper-consultation">
+        <h2 class="secondary-header-2">Who Is The Consultation For?</h2>
+        <p class="secondary-paragraph">
+          Chicago’s free medical check-up and weight loss consultation is for Chicago residents who are looking to lose
+          weight so they can live a long, vibrant and healthy life, while looking good and not breaking the bank.
+        </p>
+
+        <h2 class="secondary-header-2">How Does It Work?</h2>
+        <p class="secondary-paragraph">
+          In this exam a certified nurse or physician will do various tests to check your overall health level and find
+          which easy-to-do physician-supervised weight loss program will work best for you.
+        </p>
+
+        <button class="offer-button consultation-button">Book my appointment</button>
+      </div>
+
+
+      <img src="https://github.com/saragismondi/html5-boilerplate/assets/82971303/9fb8b8e3-c8b0-401e-a6a4-e56ccb7fca4d"
+        class="fit-woman-1" alt="Fit woman">
+
+      <img src="https://github.com/saragismondi/html5-boilerplate/assets/82971303/b8593ce9-79ce-4d94-97a3-8dc2d9e317fe"
+        class="fit-woman-2" alt="Fit woman">
 
 
 
+    </div>
+    <div class="consultation-svg">
+
+      <svg class="consultation-svg-circle-1" width="98" height="336" viewBox="0 0 98 336" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle opacity=".15" cx="168" cy="168" r="154" stroke="#fff" stroke-width="28" />
+      </svg>
+
+      <svg class="consultation-svg-circle-3" width="135" height="271" viewBox="0 0 135 271" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="-.5" cy="135.5" r="121.5" stroke="#fff" stroke-width="28"/></svg>
+
+      <svg class="consultation-svg-circle-4" width="245" height="489" viewBox="0 0 245 489" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity=".15" cx="244.5" cy="244.5" r="230.5" stroke="#fff" stroke-width="28"/></svg> 
+    </div>
+  </section>
+  <!-- ----- -->
+
+  <section class="group we-can-help-you">
+    <div class="wrapper wrapper-we-can-help-you">
+
+      <h2 class="primary-header-2">We Can Help You</h2>
+      <p class="primary-paragraph">
+        For those of us who struggle with our weight
+        it’s easy to lose hope. We have seen so many tricks, gimmicks and weight loss programs that simply do not work
+        for us.
+        They want us to eat like a pigeon, avoid all the things we love to eat and work out till we cry.
+      </p>
+      <p class="primary-paragraph">
+        We are here to tell you that it doesn’t have to be that way. There is hope! Technology has advanced rapidly in
+        recent years and now, with proper guidance...
+      </p>
 
 
+      <p class="primary-paragraph">
+        You can join the ranks of our over 15,000 satisfied clients who have lost weight, regained their confidence and
+        are living happy exuberant lives with their family. They did this without: breaking the bank, sweating buckets
+        in intense workout programs, and most importantly, without giving up ice-cream, bread, pizza, doughnuts and all
+        their favorite foods.
+      </p>
+      <img src="img/doctors.png" class="doctors" alt="Doctors">
+      <img src="img/doctors-2.png" class="doctors-2" alt="Doctors">
 
 
+      <button class="offer-button offer-button-secondary">See patient stories</button>
+      <img
+        src="     https://github.com/saragismondi/html5-boilerplate/assets/82971303/ccbd77ca-7d8a-4a51-9b0a-a9feb37e5c3b"
+        class="doctors-3" alt="Doctors" />
+
+    </div>
+
+    <div class="we-can-help-you-svg">
+      <svg class="we-can-help-you-svg-circle-1" width="181" height="289" viewBox="0 0 181 289" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="144.5" cy="144.5" r="134.5" stroke="#F9F9F9" stroke-width="20" />
+      </svg>
+     
+    </div>
+  </section>
+  <!-- ----- -->
+
+  <section class="group what-you-get">
+    <div class="wrapper wrapper-what-you-get">
+
+      <h2 class="primary-header-2 what-you-get-header">What You’ll Get At Your <span>Free</span> Consultation</h2>
+
+      <div class="what-you-get-sub-wrapper">
+
+        <div class="what-you-get-details">
+
+          <h3 class="what-you-get-title">Body Mass Index</h3>
+
+          <ul class="what-you-get-list">
+            <li>Complete understanding of your body composition</li>
+            <li>A clear view of your weight loss goals</li>
+            <li>Clear data to help you make an informed decision about your health</li>
+          </ul>
+
+        </div>
+
+        <div class="what-you-get-details">
+
+          <h3 class="what-you-get-title-secondary">Vital Signs Check</h3>
+
+          <ul class="what-you-get-list">
+            <li>Body temperature</li>
+            <li>Pulse rate, heart's rate, rhythm and regularity</li>
+            <li>Breathing rate</li>
+            <li>Blood pressure</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <button class="offer-button">Book my appointment</button>
+
+    </div>
+
+    <div class="what-you-get-svg">
+
+      <svg class="what-you-get-circle-1" width="125" height="164" viewBox="0 0 125 164" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="43" cy="82" r="73.5" stroke="#fff" stroke-width="17" />
+      </svg>
+
+      <svg class="what-you-get-circle-2" width="50" height="129" viewBox="0 0 50 129" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="64.5" cy="64.5" r="56" stroke="#fff" stroke-width="17" />
+      </svg>
+      <svg class="what-you-get-circle-3" width="279" height="279" viewBox="0 0 279 279" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="139.5" cy="139.5" r="125.5" stroke="#fff" stroke-width="28"/></svg>
+
+      <svg class="what-you-get-circle-4" width="193" height="386" viewBox="0 0 193 386" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cy="193" r="179" stroke="#fff" stroke-width="28"/></svg>
+
+      <svg  class="what-you-get-circle-5" width="158" height="158" viewBox="0 0 158 158" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="79" cy="79" r="65" stroke="#fff" stroke-width="28"/></svg>
+    </div>
+  </section>
+  <!-- ----- -->
+
+  <section class="group faq">
+    <div class="faq-svg">
+
+      <svg class="faq-svg-circle-1" width="94" height="169" viewBox="0 0 94 169" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="84.5" cy="84.5" r="74.5" stroke="#F9F9F9" stroke-width="20" />
+      </svg>
+
+      <svg class="faq-svg-circle-2" width="269" height="269" viewBox="0 0 269 269" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="134.5" cy="134.5" r="120.5" stroke="#F9F9F9" stroke-width="28"/></svg>
+
+      <svg class="faq-svg-circle-3" width="220" height="410" viewBox="0 0 220 410" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="205" r="191" stroke="#F9F9F9" stroke-width="28"/></svg>
+
+      <svg class="faq-svg-circle-4" width="124" height="124" viewBox="0 0 124 124" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="62" cy="62" r="48" stroke="#F9F9F9" stroke-width="28"/></svg>
+
+    </div>
+
+    <div class="accordion-wrapper accordion-wrapper-2">
+
+      <h2 class="primary-header-2 what-you-get-header">Frequently Asked Questions</h2>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Why is it free?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Do I need this if I’ve had my yearly medical check? What is the difference?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Can I bring another person to the appointment?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">How long does it take?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">What if I have to cancel or if I’m not sure I’ll be able to make it?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Do I need to bring anything with me?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">What if I don’t have insurance?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Do the weight loss programs you offer work?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">What’s the catch?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Will I have to exhaust myself in the gym to make it work?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <div class="faq-accordion">
+        <p class="faq-item">Where are you located?</p>
+        <svg class="arrow-down" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="m1 1 6 6 6-6" stroke="#DD71C6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+
+      <button class="offer-button offer-button-2">Book my appointment</button>
+
+    </div>
+
+
+  </section>
+  <!-- ----- -->
+
+  <section class="group footer">
+
+    <div class="footer-svg-circles">
+
+      <svg class="footer-svg-circles-circle-1" width="118" height="230" viewBox="0 0 118 230" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="115" cy="115" r="101" stroke="#fff" stroke-width="28" />
+      </svg>
+
+      <svg class="footer-svg-circles-circle-2" width="268" height="368" viewBox="0 0 268 368" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="184" cy="184" r="170" stroke="#fff" stroke-width="28"/></svg>
+
+      <svg class="footer-svg-circles-circle-3" width="230" height="230" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="115" cy="115" r="101" stroke="#fff" stroke-width="28"/></svg>
+    </div>
+
+    <div class="footer-wrapper">
+
+      <div class="footer-first-info">
+        <a href="index.html" class="footer-logo">
+          <img
+            src="https://github.com/saragismondi/html5-boilerplate/assets/82971303/c195350d-f730-4ae6-a234-45281093f6d7"
+            alt="A better weigh, Inc" />
+        </a>
+
+        <p class="footer-statement">
+          A Better Weigh Medical Weight Loss Center offers a weight loss program dedicated to helping you achieve long
+          term weight loss success with the use of FDA approved medication.
+        </p>
+
+        <div class="footer-list">
+          <div class="footer-list-icon">
+            <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14 7A7.002 7.002 0 0 0 2.05 2.05 7 7 0 0 0 0 7c0 1.387.41 2.677 1.105 3.765h-.008C3.457 14.46 7 20 7 20l5.903-9.235h-.007A6.98 6.98 0 0 0 14 7Zm-7 3a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"
+                fill="#DD71C6" />
+            </svg>
+          </div>
+          <div class="footer-list-items">
+            <p class="footer-list-title">Head Office:</p>
+            <p class="footer-list-data">1931 W 95th Streeet Chicago IL,</p>
+            <p class="footer-list-data">60643</p>
+          </div>
+        </div>
+
+        <div class="footer-list footer-list-second">
+          <div class="footer-list-icon">
+            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m13.34 14.214 1.722-1.723a1.684 1.684 0 0 1 1.8-.37l2.1.84a1.676 1.676 0 0 1 1.046 1.537v3.846a1.67 1.67 0 0 1-1.754 1.654C3.541 19.083.572 6.622.01 1.854A1.67 1.67 0 0 1 1.68 0h3.714a1.661 1.661 0 0 1 1.539 1.046l.838 2.1a1.661 1.661 0 0 1-.362 1.8L5.687 6.669s.992 6.714 7.653 7.545Z"
+                fill="#DD71C6" />
+            </svg>
+          </div>
+          <div class="footer-list-items">
+            <p class="footer-list-title">Phone:</p>
+            <p class="footer-list-data">773-496-4222</p>
+          </div>
+        </div>
+
+        <div class="footer-svg-wrapper-2">
+          <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+            <path
+              d="M14.998 12.666A2.34 2.34 0 0 0 12.664 15a2.34 2.34 0 0 0 2.334 2.334A2.34 2.34 0 0 0 17.332 15a2.34 2.34 0 0 0-2.334-2.334ZM22 15c0-.967.009-1.925-.045-2.89-.055-1.12-.31-2.115-1.13-2.934-.821-.822-1.814-1.076-2.935-1.13-.966-.054-1.924-.045-2.89-.045-.966 0-1.924-.01-2.889.045-1.12.054-2.115.31-2.934 1.13-.822.82-1.076 1.814-1.13 2.934-.054.967-.045 1.925-.045 2.89 0 .965-.01 1.925.045 2.89.054 1.12.31 2.115 1.13 2.934.82.822 1.814 1.076 2.934 1.13.967.054 1.925.046 2.89.046.966 0 1.924.008 2.89-.046 1.12-.054 2.115-.31 2.934-1.13.821-.82 1.075-1.814 1.13-2.934.056-.965.045-1.923.045-2.89Zm-7 3.592A3.587 3.587 0 0 1 11.405 15a3.587 3.587 0 0 1 3.592-3.592A3.587 3.587 0 0 1 18.59 15a3.587 3.587 0 0 1-3.592 3.592Zm3.738-6.492a.838.838 0 1 1 0-1.678.838.838 0 1 1 0 1.678Z"
+              fill="#fff" />
+          </svg>
+
+          <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+            <path
+              d="M22 10.347c-.52.228-1.075.38-1.654.453a2.854 2.854 0 0 0 1.263-1.587 5.737 5.737 0 0 1-1.82.695 2.87 2.87 0 0 0-4.965 1.963c0 .227.02.446.067.654a8.124 8.124 0 0 1-5.916-3.002 2.874 2.874 0 0 0 .882 3.836 2.836 2.836 0 0 1-1.297-.353v.031c0 1.395.995 2.553 2.3 2.82a2.868 2.868 0 0 1-.753.095c-.184 0-.37-.01-.543-.05a2.898 2.898 0 0 0 2.681 2 5.767 5.767 0 0 1-3.558 1.224c-.236 0-.461-.01-.687-.039a8.08 8.08 0 0 0 4.403 1.288c5.281 0 8.169-4.375 8.169-8.167 0-.127-.004-.25-.01-.371A5.728 5.728 0 0 0 22 10.347Z"
+              fill="#fff" />
+          </svg>
+
+          <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+            <path
+              d="M13.693 22v-6.57H12v-2.364h1.693v-2.02c0-1.588 1-3.046 3.304-3.046.933 0 1.623.092 1.623.092l-.055 2.208s-.703-.007-1.47-.007c-.832 0-.965.393-.965 1.046v1.727h2.502l-.11 2.365H16.13V22h-2.437Z"
+              fill="#fff" />
+          </svg>
+        </div>
+
+
+      </div>
+
+      <div class="footer-second-info">
+        <div class="footer-links-wrapper">
+          <div class="footer-links">
+            <h3 class="footer-about-title">About</h3>
+            <ul class="footer-about-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Book Online</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Real Patient Stories</a></li>
+              <li><a href="#">Weight Loss Programs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-about-title">More Links</h3>
+            <ul class="footer-about-list">
+              <li><a href="#">Franchise Opportunities</a></li>
+              <li><a href="#">Career Opportunities</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-about-list-wrapper">
+
+          <div class="footer-svg-wrapper">
+            <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+              <path
+                d="M14.998 12.666A2.34 2.34 0 0 0 12.664 15a2.34 2.34 0 0 0 2.334 2.334A2.34 2.34 0 0 0 17.332 15a2.34 2.34 0 0 0-2.334-2.334ZM22 15c0-.967.009-1.925-.045-2.89-.055-1.12-.31-2.115-1.13-2.934-.821-.822-1.814-1.076-2.935-1.13-.966-.054-1.924-.045-2.89-.045-.966 0-1.924-.01-2.889.045-1.12.054-2.115.31-2.934 1.13-.822.82-1.076 1.814-1.13 2.934-.054.967-.045 1.925-.045 2.89 0 .965-.01 1.925.045 2.89.054 1.12.31 2.115 1.13 2.934.82.822 1.814 1.076 2.934 1.13.967.054 1.925.046 2.89.046.966 0 1.924.008 2.89-.046 1.12-.054 2.115-.31 2.934-1.13.821-.82 1.075-1.814 1.13-2.934.056-.965.045-1.923.045-2.89Zm-7 3.592A3.587 3.587 0 0 1 11.405 15a3.587 3.587 0 0 1 3.592-3.592A3.587 3.587 0 0 1 18.59 15a3.587 3.587 0 0 1-3.592 3.592Zm3.738-6.492a.838.838 0 1 1 0-1.678.838.838 0 1 1 0 1.678Z"
+                fill="#fff" />
+            </svg>
+
+            <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+              <path
+                d="M22 10.347c-.52.228-1.075.38-1.654.453a2.854 2.854 0 0 0 1.263-1.587 5.737 5.737 0 0 1-1.82.695 2.87 2.87 0 0 0-4.965 1.963c0 .227.02.446.067.654a8.124 8.124 0 0 1-5.916-3.002 2.874 2.874 0 0 0 .882 3.836 2.836 2.836 0 0 1-1.297-.353v.031c0 1.395.995 2.553 2.3 2.82a2.868 2.868 0 0 1-.753.095c-.184 0-.37-.01-.543-.05a2.898 2.898 0 0 0 2.681 2 5.767 5.767 0 0 1-3.558 1.224c-.236 0-.461-.01-.687-.039a8.08 8.08 0 0 0 4.403 1.288c5.281 0 8.169-4.375 8.169-8.167 0-.127-.004-.25-.01-.371A5.728 5.728 0 0 0 22 10.347Z"
+                fill="#fff" />
+            </svg>
+
+            <svg class="footer-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15" cy="15" r="15" fill="#DD71C6" />
+              <path
+                d="M13.693 22v-6.57H12v-2.364h1.693v-2.02c0-1.588 1-3.046 3.304-3.046.933 0 1.623.092 1.623.092l-.055 2.208s-.703-.007-1.47-.007c-.832 0-.965.393-.965 1.046v1.727h2.502l-.11 2.365H16.13V22h-2.437Z"
+                fill="#fff" />
+            </svg>
+          </div>
+
+          <p class="footer-about-list-paragraph">Copyright by A Better Weigh Inc. All rights reserved.</p>
+        </div>
+
+
+      </div><!---//footer-about-list-wrapper--->
+
+
+    </div>
+
+
+  </section>
+  <!-- ----- -->
 
   <script src="js/vendor/modernizr-3.12.0.min.js"></script>
   <script src="js/app.js"></script>

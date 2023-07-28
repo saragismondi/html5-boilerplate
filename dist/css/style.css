@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500;600;700&display=swap");
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -245,3 +247,1235 @@ textarea {
   }
 }
 
+/*Start Custom Styles*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+p {
+  margin: 0;
+}
+
+.group {
+  min-width: 375px;
+  box-sizing: content-box;
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.nav {
+  display: none;
+}
+
+.site-logo {
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+
+.menu-toggle {
+  position: absolute;
+  right: 20px;
+  top: 29px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.menu-toggle:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+  padding: 47px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.hero::after {
+  content: "";
+  display: block;
+  background-color: #ffd900;
+  border-top-left-radius: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -50%;
+  z-index: 0;
+}
+
+.main-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 55px;
+}
+.main-title em {
+  font-style: normal;
+  color: #dd71c6;
+}
+.main-subtitle {
+  margin: 0 auto 20px auto;
+}
+.main-subtitle strong {
+  color: #dd71c6;
+}
+
+.offer {
+  background: rgb(255 255 255 / 50%);
+  border-radius: 30px;
+  box-shadow: 0 4px 40px 0 rgb(0 0 0 / 10%);
+  padding: 26px 23.5px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.offer-title {
+  margin: 0 0 20px 0;
+}
+.offer-cowntdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cowntdown-title {
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.325em;
+  text-align: center;
+  color: #0083d3;
+  margin-bottom: 19px;
+}
+.cowntdown-digit {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.offer-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 43px;
+}
+
+.offer-button {
+  background: #dd71c6;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 14px;
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.offer-button:hover {
+  opacity: 0.9;
+}
+
+.hero-wrapper {
+  padding-bottom: 42px;
+}
+.statistics {
+  background-color: #dd71c6;
+}
+.stats-block {
+  background-color: #fff;
+  border-radius: 20px;
+  min-height: 157px;
+  padding: 30px 5px 10px 5px;
+  box-sizing: border-box;
+}
+.statistics-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 23px 13px;
+  margin-bottom: 28px;
+}
+.secondary-offer-button {
+  background-color: #ffd900;
+}
+.stats-desc {
+  text-align: center;
+}
+.stats-value {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 6px;
+}
+.stats-plus {
+  color: #c4c4c4;
+}
+.stats-svg {
+  margin: 0 auto 9px auto;
+  display: block;
+}
+
+.consultation {
+  background: #73c3f4;
+}
+.consultation-button {
+  margin-bottom: 62px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-wrapper-consultation {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-header-2 {
+  color: #333;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 38px;
+  margin-top: 0px;
+}
+.secondary-header-2 {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 27px;
+}
+
+.primary-paragraph {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.secondary-paragraph {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.fit-woman-1 {
+  display: block;
+  max-width: 100%;
+}
+
+.doctors {
+  margin-left: -47px;
+  margin-right: -47px;
+  margin-bottom: 47px;
+}
+
+.what-you-get {
+  background: #f9f9f9;
+}
+.what-you-get-header {
+  margin: 0 0 62px 0;
+}
+.what-you-get span {
+  color: #dd71c6;
+}
+.what-you-get-details {
+  padding: 12px 8.5px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 39px;
+}
+.what-you-get-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0083d3;
+  box-shadow: 0 21px 0 -20px #b1e2ff;
+  padding-bottom: 10px;
+  margin: 0 auto 20px auto;
+}
+.what-you-get-title-secondary {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #dd71c6;
+  box-shadow: 0 21px 0 -20px #ffb7f0;
+  padding-bottom: 10px;
+  margin: 0 auto 20px auto;
+}
+.what-you-get-list {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  list-style-position: outside;
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+}
+.what-you-get-list li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.what-you-get-list li::before {
+  content: ".";
+  position: absolute;
+  top: -4px;
+  left: -13px;
+  font-weight: 700;
+}
+.what-you-get-list li:last-child {
+  margin-bottom: 0;
+}
+
+.faq-accordion {
+  background: #f9f9f9;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  padding: 7px 8px;
+  display: flex;
+  margin-bottom: 12px;
+}
+.faq-accordion:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.arrow-down {
+  flex: 0 0 auto;
+  margin: auto 0 auto auto;
+}
+
+.faq-item {
+  margin-right: 18px;
+}
+.footer {
+  background: #f9f9f9;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 35px;
+}
+.footer-logo img {
+  width: 138px;
+}
+.footer-statement {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 43px;
+}
+
+.footer-list {
+  position: relative;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  margin-bottom: 36px;
+}
+.footer-list-icon {
+  flex: 0 0 35px;
+}
+.footer-list-items {
+  flex: 1 0 auto;
+}
+.footer-list-title {
+  color: #333;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+.footer-list-data {
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.footer-wrapper {
+  padding: 65px 62px 26px 20px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-about-title {
+  color: #333;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.footer-about-list {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding: 0;
+}
+.footer-about-list li {
+  margin-bottom: 24px;
+  list-style: none;
+}
+.footer-about-list a {
+  text-decoration: none;
+  color: #333;
+}
+.footer-about-list a:hover {
+  text-decoration: underline;
+}
+.footer-svg {
+  margin-right: 16px;
+}
+.footer-svg-wrapper {
+  flex-direction: row;
+  margin-bottom: 26px;
+}
+.accordion-wrapper {
+  padding: 62px 20px 19px 62px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.hero-svg-circle-1 {
+  position: absolute;
+  top: 151px;
+  right: 0px;
+  z-index: -1;
+}
+.statistics-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.statistics-svg-circle-1 {
+  position: absolute;
+  top: 119px;
+  right: 0;
+  z-index: 1;
+}
+.statistics-svg-circle-2 {
+  position: absolute;
+  top: 265px;
+  left: 0;
+  z-index: 1;
+}
+.consultation-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.consultation-svg-circle-1 {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  z-index: 1;
+}
+.we-can-help-you-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.we-can-help-you-svg-circle-1 {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  z-index: 1;
+}
+.what-you-get-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.what-you-get-circle-1 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  z-index: 1;
+}
+.what-you-get-circle-2 {
+  position: absolute;
+  top: 84px;
+  right: 0;
+  z-index: 1;
+}
+.faq-svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.faq-svg-circle-1 {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  z-index: -1;
+}
+.footer-svg-circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.footer-svg-circles-circle-1 {
+  position: absolute;
+  top: 548px;
+  right: 0;
+  z-index: 1;
+}
+.doctors-2 {
+  display: none;
+}
+.offer-button-2 {
+  display: none;
+}
+
+.footer-links {
+  margin-bottom: 50px;
+}
+
+.footer-about-list-paragraph {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding: 0;
+}
+
+.fit-woman-2 {
+  display: none;
+}
+
+.doctors-3 {
+  display: none;
+}
+
+.footer-svg-wrapper-2 {
+  display: none;
+}
+.consultation-svg-circle-3 {
+  display: none;
+}
+.hero-svg-circle-3 {
+  display: none;
+}
+.statistics-svg-circle-4 {
+  display: none;
+}
+.what-you-get-circle-3 {
+  display: none;
+}
+.what-you-get-circle-4 {
+  display: none;
+}
+.what-you-get-circle-5 {
+  display: none;
+}
+.faq-svg-circle-1 {
+  display: none;
+}
+.faq-svg-circle-3 {
+  display: none;
+}
+.faq-svg-circle-4 {
+  display: none;
+}
+.footer-svg-circles-circle-2 {
+  display: none;
+}
+.footer-svg-circles-circle-3 {
+  display: none;
+}
+.consultation-svg-circle-4 {
+  display: none;
+}
+.hero-svg-circle-4 {
+  display: none;
+}
+/*   media queries   */
+@media (min-width: 820px) {
+  .wrapper {
+    max-width: 656px;
+    padding: 82px;
+  }
+  .site-logo {
+    left: 82px;
+  }
+  .site-logo img {
+    width: 138px;
+    height: auto;
+  }
+  .main-title {
+    font-family: "Libre Baskerville", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 432px;
+    margin-bottom: 38px;
+  }
+  .main-subtitle {
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.34px;
+    margin-bottom: 39px;
+  }
+  .hero::after {
+    top: 94px;
+    right: -48%;
+  }
+  .hero {
+    overflow-y: hidden;
+  }
+  .offer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 394px;
+    margin-bottom: 58px;
+  }
+  .offer-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .cowntdown-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.325em;
+    text-align: center;
+  }
+  .cowntdown-digit {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .offer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 425px;
+  }
+  .statistics-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 23px 24px;
+  }
+  .stats-value {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .stats-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .stats-block {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .wrapper-consultation {
+    max-width: 440px;
+  }
+  .secondary-header-2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .secondary-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .wrapper-we-can-help-you {
+    max-width: 440px;
+  }
+  .primary-header-2 {
+    color: #333;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51.2px;
+  }
+  .primary-paragraph {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.12px;
+  }
+  .doctors {
+    display: none;
+  }
+  .doctors-2 {
+    display: block;
+    margin-left: -182px;
+    margin-right: -182px;
+    margin-bottom: 47px;
+  }
+  .wrapper-what-you-get {
+    width: 440px;
+  }
+  .what-you-get-title {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.4px;
+    width: 263px;
+  }
+  .what-you-get-title-secondary {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41.4px;
+    width: 263px;
+  }
+  .what-you-get-list {
+    width: 275px;
+    margin: auto;
+  }
+  .what-you-get-details {
+    margin-bottom: 44px;
+  }
+  .primary-header-2 {
+    color: #333;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51.2px;
+    margin-bottom: 44px;
+  }
+  .faq-item {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.6px;
+  }
+  .faq-accordion {
+    margin-bottom: 16px;
+  }
+  .accordion-wrapper-2 {
+    max-width: 440px;
+  }
+  .offer-button-2 {
+    display: block;
+  }
+  .faq-accordion:last-of-type {
+    margin-bottom: 44px;
+  }
+  .footer-wrapper {
+    max-width: 656px;
+  }
+  .footer-links-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-links {
+    margin-right: 33px;
+  }
+  .footer-links a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer-about-list-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-about-list-paragraph {
+    margin-left: 70px;
+  }
+  .faq-svg-circle-2 {
+    display: none;
+  }
+  .hero-svg-circle-4 {
+    display: block;
+    position: absolute;
+    top: 358px;
+    left: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+  .nav {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 39px;
+    right: 0;
+  }
+  .nav li:not(last-child) {
+    margin-right: 30px;
+  }
+  .nav a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    color: #333;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .hero {
+    background: #f9f9f9;
+  }
+  .hero::after {
+    top: 0;
+    right: -66.5%;
+  }
+  .offer {
+    position: absolute;
+    right: 0;
+    top: 120px;
+    width: 629px;
+    height: 321px;
+    padding: 36px;
+    padding-bottom: 0;
+    box-shadow: none;
+  }
+  .offer-cowntdown {
+    justify-content: space-evenly;
+  }
+  .main-subtitle {
+    display: none;
+  }
+  .hero-offer-button {
+    margin-left: 0;
+  }
+  .main-title {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .offer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .offer-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 20px 0 40px 0;
+  }
+  .cowntdown-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.325em;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .cowntdown-digit {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 89px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .stats-value {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .stats-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .stats-svg {
+    width: 47px;
+    height: 47px;
+  }
+  .stats-block {
+    height: 264px;
+  }
+  .statistics-wrapper {
+    margin-bottom: 68px;
+  }
+  .secondary-header-2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .secondary-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .consultation-button {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .fit-woman-1 {
+    display: none;
+  }
+  .fit-woman-2 {
+    display: block;
+  }
+  .wrapper-consultation {
+    flex-direction: row;
+  }
+  .sub-wrapper-consultation {
+    margin-right: 100px;
+  }
+  .primary-header-2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .primary-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  .doctors-3 {
+    display: block;
+    margin-bottom: -82px;
+  }
+  .doctors-2 {
+    display: none;
+  }
+  .offer-button-secondary {
+    margin-bottom: 47px;
+  }
+  .what-you-get-sub-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .wrapper-what-you-get {
+    width: 1140px;
+    align-items: center;
+  }
+  .what-you-get-details {
+    margin-bottom: 44px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .primary-header-2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .what-you-get-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .what-you-get-details {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .accordion-wrapper {
+    width: 1140px;
+    max-width: 1140px;
+  }
+  .primary-header-2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .faq-item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .faq-accordion {
+    margin-bottom: 30px;
+  }
+  .faq-accordion:last-of-type {
+    margin-bottom: 83px;
+  }
+  .offer-button-2 {
+    margin-bottom: 106px;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-first-info {
+    margin-right: auto;
+    flex: 0 0 362px;
+  }
+  .footer-wrapper {
+    max-width: 1140px;
+  }
+  .footer-links:last-child {
+    margin-right: 0;
+  }
+  .footer-links {
+    margin-right: 33px;
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 155px;
+  }
+  .footer-second-info {
+    flex: 0;
+  }
+  .footer-svg-wrapper {
+    display: none;
+  }
+  .footer-about-list-paragraph {
+    margin-left: 0;
+  }
+  .footer {
+    overflow-y: hidden;
+  }
+  .footer-svg-wrapper-2 {
+    display: block;
+  }
+  .footer-statement {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer-list {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .footer-list-second {
+    margin-bottom: 80px;
+  }
+  .consultation-svg-circle-3 {
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 0;
+  }
+  .hero-svg-circle-3 {
+    display: block;
+    position: absolute;
+    top: 187px;
+    left: 0;
+  }
+  .statistics-svg-circle-4 {
+    display: block;
+    position: absolute;
+    top: 156px;
+    left: 0;
+  }
+  .statistics-svg-circle-2 {
+    display: none;
+  }
+  .consultation-svg-circle-1 {
+    display: none;
+  }
+  .consultation-svg-circle-4 {
+    display: block;
+    position: absolute;
+    top: 115px;
+    right: 0;
+  }
+  .what-you-get-circle-2 {
+    display: none;
+  }
+  .what-you-get-circle-3 {
+    display: block;
+    position: absolute;
+    top: 31px;
+    right: 111px;
+  }
+  .we-can-help-you-svg-circle-1 {
+    display: none;
+  }
+  .what-you-get-circle-4 {
+    display: block;
+    position: absolute;
+    top: 192px;
+    left: 0;
+  }
+  .what-you-get-circle-1 {
+    display: none;
+  }
+  .what-you-get-circle-5 {
+    display: block;
+    position: absolute;
+    top: 350px;
+    right: 280px;
+  }
+  .faq-svg-circle-2 {
+    display: block;
+    position: absolute;
+    top: 147px;
+    right: 61px;
+  }
+  .faq-svg-circle-3 {
+    display: block;
+    position: absolute;
+    top: 147px;
+    left: 0;
+  }
+  .faq-svg-circle-4 {
+    display: block;
+    position: absolute;
+    bottom: 271px;
+    right: 208px;
+  }
+  .footer-svg-circles-circle-2 {
+    display: block;
+    position: absolute;
+    top: 165px;
+    right: 0;
+  }
+  .footer-svg-circles-circle-1 {
+    display: none;
+  }
+  .footer-svg-circles-circle-3 {
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+  }
+  .hero-svg-circle-4 {
+    display: none;
+  }
+}
